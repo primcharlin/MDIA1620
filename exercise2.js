@@ -75,3 +75,6 @@ const readline = require('readline').createInterface({
   console.log("Welcome to the number guessing game! You have 10 attempts.");
   startGame();
   
+
+
+  // Very good

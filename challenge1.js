@@ -47,24 +47,24 @@ const readline = require("readline").createInterface({
   if(operator === "+"){
     let answer = number1+number2;
   } else if(operator === "-"){
-  answer = number1-number2
+  answer = number1-number2;
   } else if(operator === "*"){
-    answer = number1*number2
+    answer = number1*number2;
   } else if(operator === "/"){
-    answer = number1/number2
+    answer = number1/number2;
   } 
   
   
   
   
-  console.log("what is answer?", answer);
+  // console.log("what is answer?", answer);
   if(guess === answer){
-      console.log("Correct!")
+      console.log("Correct!");
   } else {
-      console.log("Incorrect!")
+      console.log("Incorrect!");
   
       if (guess > answer -2 && guess < answer+2){
-        console.log("Almost there")
+        console.log("Almost there");
       } else if(guess > answer -5 && guess < answer+5){
         console.log("Very Close!");
       }

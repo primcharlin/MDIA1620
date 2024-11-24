@@ -89,3 +89,7 @@ function CheckBanned() {
 }
 
 StartApp();
+
+
+//Your code is well-structured and easy to follow, with clear functions for managing users and banned lists. Very Good!
+//Xiuzi
